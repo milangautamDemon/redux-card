@@ -5,7 +5,7 @@ const Product = ({ image, price, description, title, btnName, ...handle }) => {
       <div className="flex flex-col gap-4">
         <p className="text-slate-500 truncate ...">{description}</p>
         <h5 className="font-semibold text-slate-800 text-lg text-center">
-          Rs: {price}
+          ${price}
         </h5>
         <button
           {...handle}
